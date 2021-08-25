@@ -1,4 +1,11 @@
 .main-content__title{
- font-family: roboto, sans-serif;
- color: pink;
+ font-family: 'Roboto', sans-serif;
+ }
+ body {
+ margin: 0;
+ border: dashed 1px red;
+}
+.header {
+ border: dashed 1px red;
+ width: 80%;
 }
