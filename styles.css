@@ -3,9 +3,26 @@
  }
  body {
  margin: 0;
- border: dashed 1px red;
+}
+.wrapper {
+ margin: auto;
+ width: 80%;
+ }
+.logo {
+ margin-right: 63%;
+ padding: 40px 0;
 }
 .header {
- border: dashed 1px red;
- width: 80%;
+ display: flex;
+ justify-content: space-between;
+}
+.menu {
+ display: flex;
+ align-items: center;
+}
+.menu__item {
+ padding: 0 13px;
+}
+.menu__item:last-child {
+ padding-right: 0;
 }
