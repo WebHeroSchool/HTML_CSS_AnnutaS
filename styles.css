@@ -1,6 +1,9 @@
 .main-content__title{
- font-family: 'Roboto', sans-serif;
+ font-family: 'pt_serif', sans-serif;
  }
+ .main-content__subtitle{
+  font-family: 'Roboto', sans-serif;
+}
  body {
  margin: 0;
 }
@@ -9,12 +12,34 @@
  width: 80%;
  }
 .logo {
- margin-right: 63%;
  padding: 40px 0;
+ padding-left: 44px;
+ font: bold 24px/31px 'pt_serif', arial, helvetica, sans-serif;
+ position: relative;
 }
+.logo__circle {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+.logo__circle_color_blue {
+   left: 8px;
+   top: 56%;
+   background: #C8DBFB;
+   border-radius: 50%;
+   opacity: .7;
+  }
+.logo__circle_color_dark-blue {
+   background: #0056EC;
+   border-radius: 50%;
+   opacity: .7;
+  }
 .header {
- display: flex;
- justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .menu {
  display: flex;
